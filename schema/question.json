@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Question",
+  "type": "object",
+  "required": [
+    "question_id", "question", "question_type", "marks", "difficulty",
+    "chapter_no", "section_title", "source_chunk_ids",
+    "answer_key", "key_points", "grounding_verified"
+  ],
+  "properties": {
+    "question_id": { "type": "string", "format": "uuid" },
+    "question": { "type": "string", "minLength": 10 },
+    "question_type": {
+      "type": "string",
+      "enum": ["mcq", "short_answer_2m", "source_based", "chronology", "short_answer_3m", "long_answer_5m"]
+    },
+    "marks": { "type": "integer", "enum": [1, 2, 3, 5] },
+    "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+    "chapter_no": { "type": "integer", "minimum": 1 },
+    "section_title": { "type": "string" },
+    "source_chunk_ids": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "options": {
+      "type": ["array", "null"],
+      "items": { "type": "string" },
+      "minItems": 4, "maxItems": 4
+    },
+    "answer_key": { "type": "string", "minLength": 1 },
+    "key_points": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "grounding_verified": { "type": "boolean" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "question_type": { "const": "mcq" } } },
+      "then": { "required": ["options"] }
+    }
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Blueprint",
+  "type": "object",
+  "required": ["total_marks", "sections", "chapter_weightage", "difficulty_mix"],
+  "properties": {
+    "total_marks": { "type": "integer" },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "question_type", "marks_per_q", "count"],
+        "properties": {
+          "name": { "type": "string" },
+          "question_type": { "type": "string" },
+          "marks_per_q": { "type": "integer" },
+          "count": { "type": "integer" }
+        }
+      }
+    },
+    "chapter_weightage": {
+      "type": "object",
+      "additionalProperties": { "type": "number", "minimum": 0, "maximum": 1 }
+    },
+    "difficulty_mix": {
+      "type": "object",
+      "properties": {
+        "easy": { "type": "number" },
+        "medium": { "type": "number" },
+        "hard": { "type": "number" }
+      }
+    }
+  }
+}

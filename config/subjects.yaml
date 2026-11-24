@@ -1,0 +1,22 @@
+class_10:
+  social_science:
+    book: "India and the Contemporary World - II"
+    streams:
+      history:
+        chapters:
+          1: "The Rise of Nationalism in Europe"
+          2: "Nationalism in India"
+          3: "The Making of a Global World"
+          4: "The Age of Industrialisation"
+          5: "Print Culture and the Modern World"
+      geography:
+        chapters: []
+      civics:
+        chapters: []
+      economics:
+        chapters: []
+  english:
+    book: "First Flight"
+    streams:
+      literature:
+        chapters: []
