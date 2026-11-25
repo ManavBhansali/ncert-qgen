@@ -35,3 +35,6 @@ venv/
 .DS_Store
 .idea/
 .vscode/
+
+# extraction artifacts (regenerable from PDFs)
+data/chapter*_raw.jsonl
