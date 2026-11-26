@@ -32,12 +32,22 @@
 - [x] Phase 1 gate passed: ≥90% coherent on manual inspection of all 3 chapters
 
 ## Phase 2 checklist
-- [ ] `src/embed/embed_chunks.py` written
-- [ ] 168 chunks embedded into Chroma collection `ncert_chunks` (qwen3-embedding:0.6b)
-- [ ] `eval/retrieval_eval.jsonl` written: 40 hand-built (query, expected_chunk_ids) pairs
-- [ ] `src/retrieve/eval_retrieval.py` written
-- [ ] Recall@5 ≥ 0.80 on the eval set
-- [ ] If < 0.80: miss analysis logged and root cause identified (chunking vs embedding vs metadata)
+- [x] `src/embed/embed_chunks.py` — 168 chunks embedded into Chroma
+- [x] `eval/retrieval_eval.jsonl` — 28 queries (18 keyword + 10 paraphrase) with chapter labels
+- [x] `src/retrieve/eval_retrieval.py` — reports global + scoped recall@5 and MRR
+- [x] Scoped recall@5 = 1.000, MRR = 0.830
+- [x] Global recall@5 = 1.000, MRR = 0.830
+- [x] Miss analysis: all 8 non-rank-1 queries are paraphrase queries (expected)
+- [x] Phase 2 gate passed
+
+## Phase 3 checklist
+- [ ] `src/generate/generate.py` written — retrieve → LLM → JSON
+- [ ] `src/generate/verifier.py` written — LLM-as-judge grounding check
+- [ ] MCQ generation working on Chapter 2
+- [ ] Short-answer (2-mark) generation working on Chapter 2
+- [ ] Grounding verifier rejects at least one ungrounded question (demonstrable)
+- [ ] ≥80% format fidelity on PYQ benchmark (or waived for time)
+- [ ] Phase 3 gate passed
 
 ## Windows gotchas
 - `Out-File -Encoding utf8` on PS 5.x writes a BOM; write JSON/JSONL from Python

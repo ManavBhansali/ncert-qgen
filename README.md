@@ -20,8 +20,8 @@ PDF → chunk+tag → embed+retrieve → generate+verify → (Phase 5: paper ass
 
 ## Status
 - [x] Phase 0: contracts (schemas, config, prompts)
-- [ ] Phase 1: ingestion & chunking
-- [ ] Phase 2: embedding & retrieval
+- [x] Phase 1: ingestion & chunking (3 chapters, 168 chunks)
+- [x] Phase 2: embedding & retrieval (Chroma + qwen3-embedding; recall@5 = 1.0, MRR = 0.83)
 - [ ] Phase 3: question generation
 - [ ] Phase 4: expansion
 - [ ] Phase 5: paper assembly
