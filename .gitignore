@@ -38,3 +38,6 @@ venv/
 
 # extraction artifacts (regenerable from PDFs)
 data/chapter*_raw.jsonl
+
+# regenerable diagnostics
+eval/chunk_index.txt

@@ -1,0 +1,28 @@
+{"query": "Who painted The Massacre at Chios and in what year?", "chapter": 1, "expected_chunk_ids": ["ss10_hist_ch01_p014_s01"], "notes": "Delacroix, 1824"}
+{"query": "Who was Giuseppe Garibaldi?", "chapter": 1, "expected_chunk_ids": ["ss10_hist_ch01_p022_s04"], "notes": "Italian freedom fighter"}
+{"query": "What was the Treaty of Vienna of 1815?", "chapter": 1, "expected_chunk_ids": ["ss10_hist_ch01_p011_s01"], "notes": "Treaty of Vienna"}
+{"query": "What reforms did Napoleon introduce in the territories he controlled?", "chapter": 1, "expected_chunk_ids": ["ss10_hist_ch01_p006_s01"], "notes": "Napoleon reforms"}
+{"query": "Who were the Grimm Brothers and what did they contribute to German nationalism?", "chapter": 1, "expected_chunk_ids": ["ss10_hist_ch01_p015_s01"], "notes": "Grimm Brothers folktales"}
+{"query": "What does the term 'allegory' mean in the context of nationalism?", "chapter": 1, "expected_chunk_ids": ["ss10_hist_ch01_p023_s03"], "notes": "glossary ? allegory"}
+{"query": "Why was the Balkans a source of nationalist tension in Europe after 1871?", "chapter": 1, "expected_chunk_ids": ["ss10_hist_ch01_p026_s02"], "notes": "Balkans tension"}
+{"query": "What was the role of Mazzini in Italian unification?", "chapter": 1, "expected_chunk_ids": ["ss10_hist_ch01_p012_s02"], "notes": "Young Italy / secret societies"}
+{"query": "What did the Rowlatt Act do?", "chapter": 2, "expected_chunk_ids": ["ss10_hist_ch02_p003_s02"], "notes": "Rowlatt Act"}
+{"query": "What happened at Jallianwala Bagh on 13 April 1919?", "chapter": 2, "expected_chunk_ids": ["ss10_hist_ch02_p004_s01"], "notes": "incident"}
+{"query": "What was the Khilafat issue?", "chapter": 2, "expected_chunk_ids": ["ss10_hist_ch02_p004_s02"], "notes": "Khilafat"}
+{"query": "Who led the peasant movement in Awadh?", "chapter": 2, "expected_chunk_ids": ["ss10_hist_ch02_p007_s01"], "notes": "Baba Ramchandra"}
+{"query": "When did the Non-Cooperation-Khilafat Movement begin?", "chapter": 2, "expected_chunk_ids": ["ss10_hist_ch02_p006_s01"], "notes": "January 1921"}
+{"query": "Why did Gandhi withdraw the Non-Cooperation Movement in 1922?", "chapter": 2, "expected_chunk_ids": ["ss10_hist_ch02_p010_s01"], "notes": "Chauri Chaura / violence"}
+{"query": "What was the Gandhi-Irwin Pact?", "chapter": 2, "expected_chunk_ids": ["ss10_hist_ch02_p012_s02"], "notes": "pact terms"}
+{"query": "Why did Indians oppose the 1919 law that allowed detention without trial?", "chapter": 2, "expected_chunk_ids": ["ss10_hist_ch02_p003_s02"], "notes": "paraphrase of Rowlatt"}
+{"query": "Which leader led the Bardoli Satyagraha?", "chapter": 2, "expected_chunk_ids": ["ss10_hist_ch02_p007_s05"], "notes": "Vallabhbhai Patel source"}
+{"query": "What is Rinderpest and how did it affect Africa?", "chapter": 3, "expected_chunk_ids": ["ss10_hist_ch03_p012_s01"], "notes": "Cattle plague"}
+{"query": "Why did Indians oppose the law that allowed detention without trial?", "chapter": 2, "expected_chunk_ids": ["ss10_hist_ch02_p003_s02"], "notes": "Rowlatt, zero keyword overlap"}
+{"query": "How did the treatment of the Ottoman caliph after WWI become a cause for Indian Muslims?", "chapter": 2, "expected_chunk_ids": ["ss10_hist_ch02_p004_s02"], "notes": "Khilafat, no proper noun"}
+{"query": "What was the agreement between Gandhi and the British viceroy in 1931?", "chapter": 2, "expected_chunk_ids": ["ss10_hist_ch02_p012_s02"], "notes": "Gandhi-Irwin"}
+{"query": "Which Italian leader unified the southern regions through guerrilla warfare?", "chapter": 1, "expected_chunk_ids": ["ss10_hist_ch01_p022_s04"], "notes": "Garibaldi, no name"}
+{"query": "Why did the first nationwide protest movement in India get suspended?", "chapter": 2, "expected_chunk_ids": ["ss10_hist_ch02_p010_s01"], "notes": "NC withdrawal"}
+{"query": "What did the European powers do at the Congress of Vienna?", "chapter": 1, "expected_chunk_ids": ["ss10_hist_ch01_p011_s01"], "notes": "Treaty of Vienna"}
+{"query": "Who were the two brothers who collected German folktales?", "chapter": 1, "expected_chunk_ids": ["ss10_hist_ch01_p015_s01"], "notes": "Grimm, no name"}
+{"query": "How did the cattle plague disrupt African society in the 1890s?", "chapter": 3, "expected_chunk_ids": ["ss10_hist_ch03_p012_s01"], "notes": "Rinderpest"}
+{"query": "Why did the peasants in Awadh protest against landlords?", "chapter": 2, "expected_chunk_ids": ["ss10_hist_ch02_p007_s01"], "notes": "Awadh peasant movement"}
+{"query": "What was the role of allegory in 19th-century nationalist imagery?", "chapter": 1, "expected_chunk_ids": ["ss10_hist_ch01_p023_s03"], "notes": "Allegory ? near-miss test"}
